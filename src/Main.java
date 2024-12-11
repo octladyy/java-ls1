@@ -47,7 +47,6 @@ public class Main {
         System.out.println(floatValue);
         System.out.println(numberInt);
         System.out.println(shortValue);
-
         System.out.println(numberInt);
         System.out.println(shortValue);
 
@@ -78,7 +77,7 @@ public class Main {
         int minute = minutes % 60;
 
         System.out.println(hours + " часа и " + minute + " минут" );
-        scanner.close();
+
 
        /* Задача 5: Определение возраста
         Описание: Напишите программу, которая проверяет возраст, заданный в переменной, и выводит соответствующее сообщение:
@@ -99,5 +98,6 @@ public class Main {
         else {
             System.out.println("Вы в зрелом возрасте");
         }
+        scanner.close();
     }
 }
